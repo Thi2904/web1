@@ -1,0 +1,235 @@
+*{
+    font-size: 1.1rem;
+    margin: 0;
+}
+/* Header */
+header{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+}
+.name{
+    display: flex;
+    margin-top: 8px;
+}
+.name_menu{
+    text-transform: uppercase;
+    margin: 0 12px;
+}
+.icon{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.icon_logo{
+    margin: 0 4px;
+}
+.icon_logo i{
+    color: black;
+}
+/* Container */
+.container{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.container_head-blackbar{
+    background: black;
+    width: 1175px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.container_mid{
+    width: 1175px;
+}
+.container_foot{
+    display: flex;
+    justify-content: space-between;
+    width: 1175px;  
+}
+.blackbar_name{
+    color: white;
+}
+.best_selling{
+    margin-top: 12px;
+}
+.best_selling-head{
+    display: flex;
+}
+.best_selling-name{
+    font-size: 1.2rem;
+}
+.leftbar{
+    margin-right: 12px;
+    margin-top: 12px;
+    background-color: black;
+    width: 500px;
+    height: 1px;
+}
+.rightbar{
+    margin-left: 12px;
+    margin-top: 12px;
+    background-color: black;
+    width: 500px;
+    height: 1px;
+}
+.best_selling-product{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;    
+}
+.name_product{
+    font-size: 0.9rem;
+}
+.price_product b{
+    font-size: 0.9rem;
+}
+.best_selling-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.exp_share{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;  
+}
+.title_product{
+    width: 275px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.pro_product{
+    margin-top: 12px;
+    width: 275px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.best_selling:last-child{
+    margin-bottom: 30px;
+}
+.exp{
+    margin-top: 12px;
+}
+.best_selling:last-child .best_selling-head .leftbar{
+    margin-right: 12px;
+    margin-top: 12px;
+    background-color: black;
+    width: 455px;
+    height: 1px;
+}
+.best_selling:last-child .best_selling-head .rightbar{
+    margin-right: 12px;
+    margin-top: 12px;
+    background-color: black;
+    width: 455px;
+    height: 1px;
+}
+.exp_share img {
+    width: 274px;
+    height: 274px;
+    flex-shrink: 0;
+}
+.img1{
+    width: 274px;
+    height: 274px;
+    background-image: url("img/14.png") ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: 50%;
+}
+.img2{
+    width: 274px;
+    height: 274px;
+    background-image: url("img/15.png");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: 50%;
+}
+.img3{
+    width: 274px;
+    height: 274px;
+    background-image: url("img/16.png");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: 50%;
+}
+.img4{
+    width: 274px;
+    height: 274px;
+    background-image: url("img/17.png");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: 50%;
+}
+.container_foot-name{
+
+}
+.container_foot-name{
+    width: 585px;
+
+}
+.content_name{
+    margin-top: 12px;
+    font-size: 0.8rem;
+}
+.end_foot{
+    background: black;
+    width: 400px;
+    padding: 12px 0;
+    border-radius: 20px;
+    margin-left: 170px;
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+footer{
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+.inside_footer{
+    width: 1175px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_one{
+    width: 390px;
+}
+.footer_one-head{
+    margin-top: 50px;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+.under_footer_one-head{
+    width: 355px;
+    height: 1px;
+    background: black;
+}
+.footer_one-contain{
+    width: 355px;
+    margin-top: 12px;
+    font-size: 15px;
+}
+.footer_one-contain ul{
+    padding: 0;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.footer_one-contain li{
+    font-size: 15px;
+}
+.footer_one-contain b{
+    font-size: 15px;
+}
+.footer_one-contain span{
+    font-size: 15px;
+}
